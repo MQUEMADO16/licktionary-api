@@ -1,10 +1,10 @@
-# The Licktionary - API 🎷
+# My Licktionary - API 🎷
 
-The RESTful backend for **The Licktionary**, a digital vocabulary manager for jazz musicians. This service manages the storage, retrieval, and categorization of musical phrases ("licks") using MongoDB.
+The RESTful backend for **My Licktionary**, a digital vocabulary manager for jazz musicians. This service manages the storage, retrieval, and categorization of musical phrases ("licks") using MongoDB.
 
 ## 📖 About
 
-The goal of **The Licktionary** is to encourage the habit of transcription and provide a centralized home for musical ideas.
+The goal of **My Licktionary** is to encourage the habit of transcription and provide a centralized home for musical ideas.
 
 While jazz musicians often critique the rote memorization of licks as "painting by numbers," developing improvisers need a starting point. Just as one must learn words and phrases to speak a language fluently, a musician needs vocabulary to construct a solo. This tool serves as a personal dictionary—a launchpad to capture what you hear, internalize the language, and eventually evolve those ideas into your own unique voice.
 
