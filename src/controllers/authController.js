@@ -109,7 +109,7 @@ const forgotPassword = async (req, res) => {
 
       // Send Email
       await transporter.sendMail({
-        from: `The Licktionary <${process.env.FROM_EMAIL}>`,
+        from: `My Licktionary <${process.env.FROM_EMAIL}>`,
         to: user.email,
         subject: 'Password Reset Token',
         html: message,
