@@ -43,8 +43,8 @@ app.get('/', (req, res) => {
 
 // Route Mounting (Uncomment these as we build them)
 const authRoutes = require('./routes/authRoutes');
-// const phraseRoutes = require('./routes/phraseRoutes');
+const phraseRoutes = require('./routes/phraseRoutes');
 app.use('/api/auth', authRoutes);
-// app.use('/api/phrases', phraseRoutes);
+app.use('/api/phrases', phraseRoutes);
 
 module.exports = app;
